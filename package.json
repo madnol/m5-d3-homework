@@ -1,0 +1,29 @@
+{
+  "name": "m5-d2-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madnol/m5-d2-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madnol/m5-d2-homework/issues"
+  },
+  "homepage": "https://github.com/madnol/m5-d2-homework#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "uniqid": "^5.2.0"
+  },
+  "description": ""
+}
